@@ -1,0 +1,417 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ProjectOpinions",
+    "dateExported": "2024-03-02T02:06:35.948Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "4a4debb8-6b63-4cb4-87ac-d25103cae449",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-03-01T14:30:44.891Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "59923273-598f-4472-9f8f-bdc3ad0f8ed4",
+            "name": "Public",
+            "containerId": "",
+            "created": "2024-03-01T14:31:04.582Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "3e2482cf-4ce8-483d-87c6-344e9f7a11ac",
+            "name": "Category",
+            "containerId": "",
+            "created": "2024-03-03T19:01:24.467Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "546a6b18-0c1d-47ab-a737-38e2e34b0de8",
+            "name": "Publication",
+            "containerId": "",
+            "created": "2024-03-03T19:01:45.652Z",
+            "sortNum": 50000
+        },
+        {
+            "_id": "2a048b3f-95b1-4088-94de-bd2498eb011e",
+            "name": "Comments",
+            "containerId": "",
+            "created": "2024-03-03T19:01:56.536Z",
+            "sortNum": 60000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "adc03cbc-8445-4fc6-b2b7-3ec443312668",
+            "colId": "77575279-ba88-4a51-b1f8-e77f8f4b667b",
+            "containerId": "59923273-598f-4472-9f8f-bdc3ad0f8ed4",
+            "name": "register",
+            "url": "/user/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-01T14:31:10.205Z",
+            "modified": "2024-03-03T19:20:30.010Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Brandon"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Rodriguez"
+                    },
+                    {
+                        "name": "username",
+                        "value": "brodriguez"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "brodriguez@gmail.com"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "56987545"
+                    },
+                    {
+                        "name": "address",
+                        "value": "Ciudad de Guatemala"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "396a29c2-fe31-4c82-8879-f2f6aa37e646",
+            "colId": "77575279-ba88-4a51-b1f8-e77f8f4b667b",
+            "containerId": "59923273-598f-4472-9f8f-bdc3ad0f8ed4",
+            "name": "login",
+            "url": "/user/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-01T15:00:02.545Z",
+            "modified": "2024-03-05T07:50:22.828Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "pbateman",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "imendoza@gmail.com"
+                    },
+                    {
+                        "name": "username",
+                        "value": "brodriguez",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "893d63aa-5538-43d9-9342-2664d60fc98e",
+            "colId": "77575279-ba88-4a51-b1f8-e77f8f4b667b",
+            "containerId": "4a4debb8-6b63-4cb4-87ac-d25103cae449",
+            "name": "update",
+            "url": "/user/update/65e1e7b27db9f772ad70fb0c",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-03-01T15:02:17.639Z",
+            "modified": "2024-03-01T15:59:36.410Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxZTdiMjdkYjlmNzcyYWQ3MGZiMGMiLCJ1c2VybmFtZSI6InBiYXRlbWFuIiwibmFtZSI6IlBhdHJpY2siLCJyb2xlIjoiQ0xJRU5UIiwiaWF0IjoxNzA5MzA4NzY1LCJleHAiOjE3MDkzMTk1NjV9.A0D38t7TBAIYur9omPiXZXRPULRfvHrw7HuUCMN7sx8"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Patt"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "b5f8d99e-74ea-402b-b4eb-065bb30593a2",
+            "colId": "77575279-ba88-4a51-b1f8-e77f8f4b667b",
+            "containerId": "3e2482cf-4ce8-483d-87c6-344e9f7a11ac",
+            "name": "create",
+            "url": "/category/add",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-03-03T19:21:16.422Z",
+            "modified": "2024-03-03T19:25:16.751Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0Y2I1YTdlMTE0YzcyN2M4NGRkYTYiLCJ1c2VybmFtZSI6ImltZW5kb3phIiwiZW1haWwiOiJpbWVuZG96YUBnbWFpbC5jb20iLCJuYW1lIjoiSXZhbiIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDk0OTMxMzIsImV4cCI6MTcwOTUwMzkzMn0.8hZqA-i47aX3LyddmOry25j038dtDUVVBep30w5Knsw"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Carro"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Todo lo relacionado con el mundo motor lo encuentras aquí"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "cbda7fdc-c3a7-4ced-acc0-be82e57b482c",
+            "colId": "77575279-ba88-4a51-b1f8-e77f8f4b667b",
+            "containerId": "546a6b18-0c1d-47ab-a737-38e2e34b0de8",
+            "name": "create",
+            "url": "/publication/create",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-03-03T19:26:25.276Z",
+            "modified": "2024-03-04T00:12:03.235Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0Y2Q3ZTdlMTE0YzcyN2M4NGRkYTkiLCJ1c2VybmFtZSI6ImJyb2RyaWd1ZXoiLCJuYW1lIjoiQnJhbmRvbiIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDk1MTA1MzgsImV4cCI6MTcwOTUyMTMzOH0.B3MOapcSuI2P4WEagyeHhgd-q670DlZJ-Ta8ktv-PKI"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "Ford F40 | El gigante que derroto a Ferrari en Lemmans"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65e4ce147e114c727c84ddac"
+                    },
+                    {
+                        "name": "content",
+                        "value": "Roberto Baggio, un hombre que habia hecho una promesa a su padre, llego al mundial de 1944 con el sueño de ganar la tan preciada Copa mundial para su padre y para Italia"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "55ade1a4-a491-4f9a-9002-fec7c7ce876e",
+            "colId": "77575279-ba88-4a51-b1f8-e77f8f4b667b",
+            "containerId": "546a6b18-0c1d-47ab-a737-38e2e34b0de8",
+            "name": "list Publications",
+            "url": "",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-03-03T19:52:03.152Z",
+            "modified": "2024-03-03T19:52:03.153Z",
+            "headers": []
+        },
+        {
+            "_id": "0ddb90f7-1d33-4a1c-9818-c9f3b20c6df9",
+            "colId": "77575279-ba88-4a51-b1f8-e77f8f4b667b",
+            "containerId": "546a6b18-0c1d-47ab-a737-38e2e34b0de8",
+            "name": "list My Publications",
+            "url": "/publication/myPublications",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-03-03T19:52:16.725Z",
+            "modified": "2024-03-03T20:00:40.161Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0Y2I1YTdlMTE0YzcyN2M4NGRkYTYiLCJ1c2VybmFtZSI6ImltZW5kb3phIiwiZW1haWwiOiJpbWVuZG96YUBnbWFpbC5jb20iLCJuYW1lIjoiSXZhbiIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDk0OTYwMjcsImV4cCI6MTcwOTUwNjgyN30.kHts-a-QTZ2giElSBkXzTQq9GYhoxZBYuxl_ppR8uNA"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0cb630e4-01ff-4629-8bd2-76aca6f90330",
+            "colId": "77575279-ba88-4a51-b1f8-e77f8f4b667b",
+            "containerId": "546a6b18-0c1d-47ab-a737-38e2e34b0de8",
+            "name": "update",
+            "url": "/publication/update/65e4d4937e114c727c84ddba",
+            "method": "PUT",
+            "sortNum": 100000,
+            "created": "2024-03-03T20:08:14.105Z",
+            "modified": "2024-03-03T21:04:17.728Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0Y2Q3ZTdlMTE0YzcyN2M4NGRkYTkiLCJ1c2VybmFtZSI6ImJyb2RyaWd1ZXoiLCJuYW1lIjoiQnJhbmRvbiIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDk0OTk4NDgsImV4cCI6MTcwOTUxMDY0OH0.1_oJ5F17stCAVPNdKO-fGOYEb8mDMuPJ3oo7CL2Vtos"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "F40 | El unico que pudo vencer a Ferrari"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "8261eb62-4466-494f-8727-36f5af638301",
+            "colId": "77575279-ba88-4a51-b1f8-e77f8f4b667b",
+            "containerId": "546a6b18-0c1d-47ab-a737-38e2e34b0de8",
+            "name": "delete",
+            "url": "/publication/delete/65e51135b6c2881e26a8ce80",
+            "method": "DELETE",
+            "sortNum": 110000,
+            "created": "2024-03-04T00:01:08.328Z",
+            "modified": "2024-03-04T00:11:11.677Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0Y2Q3ZTdlMTE0YzcyN2M4NGRkYTkiLCJ1c2VybmFtZSI6ImJyb2RyaWd1ZXoiLCJuYW1lIjoiQnJhbmRvbiIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDk1MTEwNjIsImV4cCI6MTcwOTUyMTg2Mn0.QEKfqAREv8xgWfcRKChXjn-2nVkYGyRLbxT4nCdg-RY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e5811340-05f4-4696-911f-b544a140858c",
+            "colId": "77575279-ba88-4a51-b1f8-e77f8f4b667b",
+            "containerId": "2a048b3f-95b1-4088-94de-bd2498eb011e",
+            "name": "add comment",
+            "url": "/comment/addComment",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2024-03-04T00:24:16.455Z",
+            "modified": "2024-03-05T07:38:15.018Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyMGEzODVlYTBmNTRhMzQyZjc1ZWEiLCJ1c2VybmFtZSI6InBiYXRlbWFuIiwibmFtZSI6IlBhdHJpY2siLCJyb2xlIjoiQ0xJRU5UIiwiaWF0IjoxNzA5NjI0MDI0LCJleHAiOjE3MDk2MzQ4MjR9.trgS2O6qphAjwdelKP01_twiuMsA0aIIG6q8JKWAnIc"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "publication",
+                        "value": "65e50fdbb6c2881e26a8ce7c"
+                    },
+                    {
+                        "name": "content",
+                        "value": "Ese dia Ferrari recibio una lección que no olvidará"
+                    }
+                ]
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "fb1358ae-109b-436e-ad0f-d9d7ae4b8af5",
+            "colId": "77575279-ba88-4a51-b1f8-e77f8f4b667b",
+            "containerId": "2a048b3f-95b1-4088-94de-bd2498eb011e",
+            "name": "listComments",
+            "url": "/comment/listComment/65e511d3b6c2881e26a8ce92",
+            "method": "POST",
+            "sortNum": 130000,
+            "created": "2024-03-05T03:41:58.524Z",
+            "modified": "2024-03-05T04:06:20.146Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyMGEzODVlYTBmNTRhMzQyZjc1ZWEiLCJ1c2VybmFtZSI6InBiYXRlbWFuIiwibmFtZSI6IlBhdHJpY2siLCJyb2xlIjoiQ0xJRU5UIiwiaWF0IjoxNzA5NjExMDM4LCJleHAiOjE3MDk2MjE4Mzh9.JIn1VrHXM87FqHXRexjPNGfsa7Czs300-X4xZTfzjuY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0cf57b4e-2225-4034-a49c-b8bbf3153460",
+            "colId": "77575279-ba88-4a51-b1f8-e77f8f4b667b",
+            "containerId": "2a048b3f-95b1-4088-94de-bd2498eb011e",
+            "name": "update comment",
+            "url": "/comment/update/65e51837afc5f3ce8efbe8c4",
+            "method": "PUT",
+            "sortNum": 140000,
+            "created": "2024-03-05T07:27:43.446Z",
+            "modified": "2024-03-05T07:36:50.921Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyMGEzODVlYTBmNTRhMzQyZjc1ZWEiLCJ1c2VybmFtZSI6InBiYXRlbWFuIiwibmFtZSI6IlBhdHJpY2siLCJyb2xlIjoiQ0xJRU5UIiwiaWF0IjoxNzA5NjI0MDI0LCJleHAiOjE3MDk2MzQ4MjR9.trgS2O6qphAjwdelKP01_twiuMsA0aIIG6q8JKWAnIc"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "content",
+                        "value": "A Ferrari ese dia le dieron una paliza"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "9ee5c1c5-d202-484a-92a3-ec8d610fc65d",
+            "colId": "77575279-ba88-4a51-b1f8-e77f8f4b667b",
+            "containerId": "2a048b3f-95b1-4088-94de-bd2498eb011e",
+            "name": "delete comments",
+            "url": "/comment/delete/65e6d14e116ff827e241aa80",
+            "method": "DELETE",
+            "sortNum": 150000,
+            "created": "2024-03-05T07:43:10.909Z",
+            "modified": "2024-03-05T08:01:36.043Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0Y2I1YTdlMTE0YzcyN2M4NGRkYTYiLCJ1c2VybmFtZSI6ImltZW5kb3phIiwiZW1haWwiOiJpbWVuZG96YUBnbWFpbC5jb20iLCJuYW1lIjoiSXZhbiIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDk2MjUwMjIsImV4cCI6MTcwOTYzNTgyMn0.44V1L9JDagQvsuA0Qqpcf8amC3UrblxBLyrzItmRqak"
+                }
+            ],
+            "params": [],
+            "reqType": "del",
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2656"
+        }
+    }
+}
